@@ -1,0 +1,55 @@
+body{
+    background-color:#ffffff;
+}
+header{
+    background-color: #000066;
+    border-radius: 30px;
+    padding-bottom: 13px;
+}
+header h1{
+    color:white;
+    padding: 10px 5px;
+    text-align: center;
+    font-family:"Domine" , serif;
+}
+header nav{
+    text-align: center;
+}
+header nav a{
+    color: #FFFFFF;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin:40px;
+}
+h2,h3{
+    color:#000066;
+    font-family:"Domine" , serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+section#first {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+}
+section#first div {
+    color:#000066;
+    font-size: larger;
+}
+div img#freshworks{
+    width:250px;
+    height:110px;
+}
+footer nav img{
+    width:40px;
+    height:40px;
+}
+footer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
