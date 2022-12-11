@@ -4,10 +4,10 @@ body{
     text-decoration:none;
     outline:none;
     border:none;
-    text-transform:capitalize;
+    font-family: 'Aclonica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     transition: 0.2s linear;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    box-sizing:border-box;
     background-image: url('../../assets/images/bg55.jpg');
     background-position: 60% 50%;
 }
@@ -26,6 +26,7 @@ header{
     align-items:center;
     justify-content:space-between;
     box-shadow: 0rem .5rem 1rem rgba(0,0,0,.1);
+    text-transform:capitalize;
     z-index: 800;
     padding:1rem 2rem;
     background: linear-gradient(120deg ,#26506b,#9e66b6);
@@ -42,7 +43,7 @@ header .navbar a{
     color:black;
 }
 header .navbar a:hover{
-    color:rgb(207, 64, 88);
+   color:white;
 }
  .dropdown {
     position: relative;
@@ -64,10 +65,12 @@ header .navbar a:hover{
   }
   .dropdown span{
    position:relative;
-   right:2rem;
-
+   left:2rem;
+   color:black;
   }
-  
+  .dropdown span:hover{
+    color:white;
+  }
   .dropdown:hover .dropdown-content {
     display:block;
   }
@@ -249,6 +252,19 @@ footer{
     margin-left:30px; 
 }
 footer{
+    border-top:1px solid white;
     position: relative;
     top:10rem;
+}
+.mood:hover{
+    opacity: 0.8;
+    transition: 0.2s linear;
+}
+.past-entries:hover{
+    opacity: 0.8;
+    transition: 0.2s linear;
+}
+.login:hover{
+    opacity: 0.8;
+    transition: 0.2s linear;
 }

@@ -4,10 +4,11 @@ body{
     text-decoration:none;
     outline:none;
     border:none;
-    text-transform:capitalize;
     transition: 0.2s linear;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    box-sizing:border-box;
+    font-family: 'Aclonica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
     background-image: url('../../assets/images/bg55.jpg');
     background-position: 60% 50%;
 }
@@ -29,6 +30,7 @@ header{
     z-index: 800;
     padding:1rem 2rem;
     background: linear-gradient(120deg ,#26506b,#9e66b6);
+    text-transform:capitalize;
 }
 
 header .navbar{
@@ -42,7 +44,7 @@ header .navbar a{
     color:black;
 }
 header .navbar a:hover{
-    color:rgb(207, 64, 88);
+    color:white;
 }
  .dropdown {
     position: relative;
@@ -68,6 +70,9 @@ header .navbar a:hover{
    color:black;
 
   }
+  .dropdown span:hover{
+    color:white;
+  }
   
   .dropdown:hover .dropdown-content {
     display:block;
@@ -75,6 +80,9 @@ header .navbar a:hover{
 
   .button-1{
    vertical-align: top;
+}
+.login:hover{
+  opacity: 0.8;
 }
 .login{
     padding:0.6rem 2rem;
@@ -111,6 +119,9 @@ h2{
   color:rgb(214, 145, 34);
   padding: 30px 40px 30px 40px;
   border-radius: 20px;
+}
+.emo-entry-1 img:hover{
+  transform: rotate(30deg);
 }
 .emo-entry-1 button p{
   font-size: 20px;

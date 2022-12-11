@@ -4,7 +4,7 @@ body{
     text-decoration:none;
     outline:none;
     border:none;
-    text-transform:capitalize;
+   
     transition: 0.2s linear;
     font-family: 'Aclonica', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -31,6 +31,7 @@ header{
     z-index: 800;
     padding:1rem 2rem;
     background: linear-gradient(120deg ,#26506b,#9e66b6);
+    text-transform:capitalize;
 }
 
 header .navbar{
@@ -44,7 +45,8 @@ header .navbar a{
     color:black;
 }
 header .navbar a:hover{
-    color:rgb(207, 64, 88);
+  color:white;
+
 }
  .dropdown {
     position: relative;
@@ -68,10 +70,10 @@ header .navbar a:hover{
    position:relative;
    left:2rem;
    color:black;
-   
-
-  }
-  
+ }
+ .dropdown span:hover{
+    color:white; 
+ }
   .dropdown:hover .dropdown-content {
     display:block;
   }
@@ -197,6 +199,7 @@ main{
      }
      .emoji-1 input:focus{
          border:3px solid rgb(214, 125, 42);
+         background-color: yellow;
      }
      
      
@@ -223,7 +226,8 @@ main{
         outline:none;
      }
      .emoji-2 input:focus{
-         border:3px solid rgb(214, 125, 42);
+         border:3px solid;
+         background-color: grey;
      }
      
      .emoji-3 input{
@@ -249,6 +253,7 @@ main{
      }
      .emoji-3 input:focus{
          border:3px solid rgb(214, 125, 42);
+         background-color: rgb(164, 28, 28);
      }
      
      .emoji-4 input{
@@ -274,6 +279,7 @@ main{
      }
      .emoji-4 input:focus{
         border:3px solid rgb(214, 125, 42);
+        background-color: purple;
      }
      .emoji-5 input{
         width:140px;
@@ -298,6 +304,7 @@ main{
      }
      .emoji-5 input:focus{
        border:3px solid rgb(214, 125, 42);
+       background-color:rgb(28, 116, 28);
      }
      
      
@@ -365,10 +372,16 @@ main{
      color:white;
      border-radius:10px;
      position:relative;
-     left:400px;
+     left:500px;
      top:39px;
      font-size: 30px;
      margin-bottom:30px;
+}
+.login:hover{
+    opacity:0.8;
+}
+.Submit:hover{
+    opacity:0.8;
 }
 .rangebar{
     border:1px solid  black;
