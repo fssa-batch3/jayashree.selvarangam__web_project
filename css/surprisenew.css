@@ -29,6 +29,7 @@ header{
     z-index: 800;
     padding:1rem 2rem;
     background: linear-gradient(120deg ,#26506b,#9e66b6);
+    text-transform: capitalize;
 }
 
 header .navbar{
@@ -42,7 +43,7 @@ header .navbar a{
     color:black;
 }
 header .navbar a:hover{
-    color:rgb(207, 64, 88);
+    color:rgb(255, 255, 255);
 }
  .dropdown {
     position: relative;
@@ -73,6 +74,9 @@ header .navbar a:hover{
   }
   .button-1{
    vertical-align: top;
+}
+.login:hover{
+    opacity:0.8;
 }
 .login{
     padding:0.6rem 2rem;
@@ -157,7 +161,7 @@ width:50%;
 height:450px;
 margin-top: 55px;
 border-radius: 20px;
-margin-left:50px;
+margin-left:30px;
 }
 .text1{
 text-align: left;

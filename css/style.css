@@ -1,0 +1,270 @@
+body{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    font-family: 'Aclonica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    transition: 0.2s linear;
+    background-image: url('../../assets/images/bg55.jpg');
+    background-position: 60% 50%;
+}
+
+
+html{
+    overflow-x:hidden;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow: 0rem .5rem 1rem rgba(0,0,0,.1);
+    text-transform:capitalize;
+    z-index: 800;
+    padding:1rem 2rem;
+    background: linear-gradient(120deg ,#26506b,#9e66b6);
+}
+
+header .navbar{
+    font-size:1.4rem;
+    color:#333;
+    margin-left:0.9rem;
+}
+header .navbar a{
+    text-decoration: none;
+    padding:0 1.9rem;
+    color:black;
+}
+header .navbar a:hover{
+   color:white;
+}
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #F9F9F9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding:  1rem 2rem;
+    z-index: 1;
+    background: linear-gradient(120deg ,#26506b,#9e66b6);
+  }
+  .dropdown-content p a{
+    font-size:1.3rem;
+    color:black;
+  }
+  .dropdown span{
+   position:relative;
+   left:2rem;
+   color:black;
+  }
+  .dropdown span:hover{
+    color:white;
+  }
+  .dropdown:hover .dropdown-content {
+    display:block;
+  }
+  .button-1{
+   vertical-align: top;
+}
+.login{
+    padding:0.6rem 2rem;
+    background-color: #333;
+    color:white;
+    border-radius:1rem;
+}
+main{
+    position: relative;
+    top:10rem;
+}
+
+
+.rightside-content{
+    display:flex;
+    border-bottom:1px solid white;
+}
+.right-content{
+    display:flex;
+    flex-direction:row;
+}
+.content-1{
+    margin-left:20px;
+    margin-top:50px;
+    margin-right:20px;
+}
+.heading-1{
+    font-size:60px;
+    color:rgb(140, 70, 140);
+}
+.main-tag-1 .tagline-1 {
+    color:rgb(36, 159, 126);
+    font-size:23px;
+}
+.button-2{
+     margin-top: 90px;
+
+}
+.welcome{
+    color:rgb(36, 159, 126);
+    font-size:30px;
+    margin-top:40px;
+}
+.past-entries{
+    margin-left: 40px;
+}
+.content-1 p{
+    position: relative;
+    top:10px;
+    font-size: 20px;}
+
+.content-1 button{
+    margin-top: 10px;
+    padding:15px 35px 15px 35px;
+    background-color: #333;
+    color:white;
+    border-radius:10px;
+    position:relative;
+    bottom:30px;
+}
+.content-3 h2{
+    margin-left:600px;
+    margin-top: 70px;
+    font-size: 35px;
+       
+    }
+.content-3{
+    color:rgba(33, 33, 133, 0.945)
+}
+.mood{
+    font-size: 18px;
+}
+.past-entries{
+    font-size: 18px;
+}
+
+.main-slogan-image1{
+    margin-right: 30px;
+}
+.main-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left:600px;
+    margin-top:70px;
+}
+.main-tag-3{
+    font-size: 20px;
+    position: relative;
+    right:150px;
+}
+.main-slogan-image3{
+    position: relative;
+   left:40px;
+}
+.main-4{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-right:800px;
+    margin-left: 80px;
+    margin-top:70px;
+    position: relative;
+    right:50px;
+}
+.main-tag-4{
+    font-size: 20px;
+    position: relative;
+    left:150px;
+}
+.main-slogan-image4{
+    position: relative;
+    left:50px;
+}
+.main-5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left:500px;
+    margin-top:70px;
+}
+.main-tag-5{
+    font-size: 20px;
+    position: relative;
+    right:150px;
+}
+.main-slogan-image5{
+    position: relative;
+    right:70px;
+}
+.main-6{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-right:800px;
+    margin-top:70px;
+}
+.main-tag-6{
+    font-size: 20px;
+    position: relative;
+    left:150px;
+}
+.main-slogan-image6{
+    position: relative;
+    left:50px;
+}
+footer{
+   margin-top: 40px;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.contact-us{
+    margin-left: 600px;
+}
+.label{
+    font-size: 20px;
+    color:black;
+    margin-left:40rem;
+
+}
+.socialyou{
+    margin-right: 30px;
+}
+.socialins{
+    margin-left:30px; 
+}
+footer{
+    border-top:1px solid white;
+    position: relative;
+    top:10rem;
+}
+.mood:hover{
+    opacity: 0.8;
+    transition: 0.2s linear;
+}
+.past-entries:hover{
+    opacity: 0.8;
+    transition: 0.2s linear;
+}
+.login:hover{
+    opacity: 0.8;
+    transition: 0.2s linear;
+}
