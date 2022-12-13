@@ -1,0 +1,135 @@
+body{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    transition: 0.2s linear;
+    font-family: 'Aclonica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFFBF1;
+    color:rgb(202, 140, 24);
+}
+
+html{
+    overflow-x:hidden;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow: 0rem .5rem 1rem rgba(0,0,0,.1);
+    z-index: 800;
+    padding:1rem 2rem;
+    background: linear-gradient(120deg ,#26506b,#9e66b6);
+    text-transform:capitalize;
+}
+
+header .navbar{
+    font-size:1.4rem;
+    color:#333;
+    margin-left:0.9rem;
+}
+header .navbar a{
+    text-decoration: none;
+    padding:0 1.9rem;
+    color:black;
+}
+header .navbar a:hover{
+    color:rgb(255, 255, 255);
+}
+
+  .button-1{
+   vertical-align: top;
+}
+.login{
+    padding:0.6rem 2rem;
+    background-color: #333;
+    color:white;
+    border-radius:1rem;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #F9F9F9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    background: linear-gradient(120deg ,#26506b,#9e66b6);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content span:hover{
+   color:white;
+  }
+main{
+    position: relative;
+    top:10rem;
+}
+h1{
+    color:rgb(202, 140, 24);
+    margin-top:50px;
+    margin-left:60px;
+    font-size: 45px;
+}
+.login:hover{
+    opacity: 0.8;
+}
+.login{
+    padding:10px 30px 10px 30px;
+    background-color: #333;
+    color:white;
+    border-radius:10px;
+}
+.resolution{
+   
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    top:70px;
+}
+.resolution1-4{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-between;
+}
+.resolution5-8{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-between;
+}
+.resolution1-4 p{
+    padding:20px;
+    border:1px solid #082032;
+    font-size: 20px;
+    font-weight: bold;
+    background:#082032 ;
+    border-radius:20px;
+    margin-right: 40px;
+}
+
+.resolution5-8 p{
+    padding:20px;
+    border:1px solid #082032;
+    font-size: 20px;
+    font-weight: bold;
+    background:#082032 ;
+    border-radius:20px;
+    margin-left: 40px;
+}

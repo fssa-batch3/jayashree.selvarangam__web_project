@@ -1,0 +1,150 @@
+body{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    
+    transition: 0.2s linear;
+    font-family: 'Aclonica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url('../../assets/images/bg55.jpg');
+    background-position: 60% 50%;
+    
+}
+
+html{
+    overflow-x:hidden;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow: 0rem .5rem 1rem rgba(0,0,0,.1);
+    z-index: 800;
+    padding:1rem 2rem;
+    background: linear-gradient(120deg ,#26506b,#9e66b6);
+    text-transform:capitalize;
+}
+
+header .navbar{
+    font-size:1.4rem;
+    color:#333;
+    margin-left:0.9rem;
+}
+header .navbar a{
+    text-decoration: none;
+    padding:0 1.9rem;
+    color:black;
+}
+header .navbar a:hover{
+    color:white;
+}
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #F9F9F9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding:  1rem 2rem;
+    z-index: 1;
+    background: linear-gradient(120deg ,#26506b,#9e66b6);
+  }
+  .dropdown-content p a{
+    font-size:1.3rem;
+    color:black;
+  }
+  .dropdown span{
+   position:relative;
+   left:2rem;
+   color:black;
+}
+  .dropdown span:hover{
+    color:white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display:block;
+  }
+  .button-1{
+   vertical-align: top;
+}
+.login{
+    padding:0.6rem 2rem;
+    background-color: #333;
+    color:white;
+    border-radius:1rem;
+}
+.login:hover{
+  opacity:0.8;
+}
+main{
+    position: relative;
+    top:9rem;
+    margin-left:4rem;
+    margin-bottom:10rem;
+    
+}
+.thumbnail {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .blog-preview:hover{
+     transform: scale(1.1);
+  }
+  .blog-preview{
+    width:25rem;
+    height:28rem;
+    border:1px solid black;
+    background-color:whitesmoke;
+    border-radius:.1rem;
+
+  }
+  .blog-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+  .blog-picture .profile-picture{
+    width: 40px;
+    border-radius: 50px;
+  }
+  .blog-title{
+  margin-top:0;
+  font-size: 19px;
+  font-weight:bold;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.blog-indetail,.blog-readmore{
+    margin-top:0;
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+}
+.blog-indetail{
+    margin-bottom: 4px;
+}
+.blog-readmore{
+  margin-bottom: 4px;
+    color:black;
+    text-decoration:none;
+}  
+.blog-readmore:hover{
+    color:rgb(155, 29, 29);
+    transition: .2s linear;
+}
+.blog-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+  }

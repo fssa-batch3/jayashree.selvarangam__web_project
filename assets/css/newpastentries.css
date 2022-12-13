@@ -29,7 +29,7 @@
         padding-top:20px;
     }
     .nav-item{
-        margin-left:80px;
+        margin-left:60px;
         font-size:24px;
         text-transform: capitalize;
     }    li {
@@ -157,6 +157,8 @@
        
     }
     .btn1 button{
+        width:100px;
+        height: 180px;;
         background-color: #082032;
         color:rgb(214, 145, 34);
         padding: 20px 30px 20px 30px;
@@ -164,14 +166,335 @@
         margin-left: 17px;
         font-size: 18px;
     }
+    .btn1 button:hover{
+        box-shadow: 6px 5px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
+    }
      .btn2 button{
+        width:100px;
+        height: 180px;
         background-color: #082032;
         color:rgb(214, 145, 34);
         padding: 20px 30px 20px 30px;
         border-radius: 20px;
         margin-left: 17px;
-        box-shadow: 3px 2px orange;
+        
      }
+     .btn2 button:hover{
+        box-shadow: 6px 5px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
+     }
+     .btn3 button{
+        width:100px;
+        height: 180px;
+        background-color: #082032;
+        color:rgb(214, 145, 34);
+        padding: 20px 30px 20px 30px;
+        border-radius: 20px;
+        margin-left: 17px;
+       
+     }
+     .btn3 button:hover{
+        box-shadow: 6px 5px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
+     }
+     .btn4 button{
+        width:100px;
+        height: 180px;
+        background-color: #082032;
+        color:rgb(214, 145, 34);
+        padding: 20px 30px 20px 30px;
+        border-radius: 20px;
+        margin-left: 17px;
+     }
+     .btn4 button:hover{
+        box-shadow: 6px 5px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
+     }
+     .btn5 button{
+        width:100px;
+        height: 180px;
+        background-color: #082032;
+        color:rgb(214, 145, 34);
+        padding: 20px 30px 20px 30px;
+        border-radius: 20px;
+        margin-left: 17px;
+
+     }
+     .btn5 button:hover{
+        box-shadow: 6px 5px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
+     }
+     .btn6 button{
+        width:100px;
+        height: 180px;
+        background-color: #082032;
+        color:rgb(214, 145, 34);
+        padding: 20px 30px 20px 30px;
+        border-radius: 20px;
+        margin-left: 17px;
+       
+     }
+     .btn6 button:hover{
+        box-shadow: 6px 5px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
+     }
+   
+    
+     .btn8 button{
+        width:100px;
+        height: 180px;
+        background-color: #082032;
+        color:rgb(214, 145, 34);
+        padding: 20px 30px 20px 30px;
+        border-radius: 20px;
+        margin-left: 17px;
+        
+     }
+     .btn8 button:hover{
+        box-shadow: 6px 5px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
+     }
+     .btn9 button{
+        width:100px;
+        height: 180px;
+        background-color: #082032;
+        color:rgb(214, 145, 34);
+        padding: 20px 30px 20px 30px;
+        border-radius: 20px;
+        margin-left: 17px;
+       
+     }
+     .btn9 button:hover{
+        box-shadow: 6px 5px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
+     }
+     .btn10 button{
+        width:100px;
+        height: 180px;
+        background-color: #082032;
+        color:rgb(214, 145, 34);
+        padding: 20px 30px 20px 30px;
+        border-radius: 20px;
+        margin-left: 17px;
+
+     }
+     .btn10 button:hover{
+        box-shadow: 6px 5px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
+     }
+     .btn11 button{
+        width:100px;
+        height: 180px;
+        background-color: #082032;
+        color:rgb(214, 145, 34);
+        padding: 20px 30px 20px 30px;
+        border-radius: 20px;
+        margin-left: 17px;
+        
+     }
+     .btn11 button:hover{
+        box-shadow: 6px 5px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
+     }
+     .day-btn1{
+        position: relative;
+        bottom: 7px;
+     }
+     .day-btn1{
+        position: relative;
+        bottom: 7px;
+        font-size: 15px;
+     }
+     .day-btn2{
+        position: relative;
+        bottom: 7px;
+        font-size: 16px;
+     }
+     .day-btn3{
+        position: relative;
+        bottom: 11px;
+        font-size: 16px;
+     }
+     .day-btn4{
+       position:relative;
+        bottom: 8px;
+        font-size: 16px;
+     }
+     .day-btn5{
+        position: relative;
+        bottom: 7px;
+        font-size: 16px;
+     }
+     .day-btn6{
+        position: relative;
+        bottom: 7px;
+        font-size: 16px;
+     }
+    
+     .day-btn8{
+        position: relative;
+        bottom: 7px;
+        font-size: 16px;
+     }
+     .day-btn9{
+        position: relative;
+        bottom: 7px;
+        font-size: 16px;
+     }
+     .day-btn10{
+        position: relative;
+        bottom: 7px;
+        font-size: 16px;
+     }
+     .day-btn11{
+        position: relative;
+        bottom: 7px;
+        font-size: 16px;
+     }
+     .date-btn1{
+        font-size: 16px;
+
+     }
+     .date-btn1{
+        font-size: 16px;
+        position: relative;
+        bottom: 6px;
+     }
+     .date-btn2{
+        font-size: 16px;
+        position: relative;
+        bottom: 5px;
+     }
+     .date-btn3{
+        font-size: 16px;
+        position: relative;
+        bottom: 7px;
+     }
+     .date-btn4{
+        font-size: 16px;
+        position: relative;
+        bottom: 7px;
+     }
+     .date-btn5{
+        font-size: 16px;
+        position: relative;
+        bottom: 6px;
+     }
+     .date-btn6{
+        font-size: 16px;
+        position: relative;
+        bottom: 6px;
+     }
+     .date-btn8{
+        font-size: 16px;
+        position: relative;
+        bottom: 6px;
+        
+     }
+     .date-btn9{
+        font-size: 16px;
+        position: relative;
+        bottom: 7px;
+    
+     }
+     .date-btn10{
+        font-size: 16px;
+        position: relative;
+        bottom: 7px;
+        
+     }
+     .date-btn11{
+        font-size: 16px;
+        position: relative;
+        bottom: 7px;
+        
+     }
+     .emoji-btn1 img{
+        width:40px;
+        height: 40px;
+        position: relative;
+        top:5px;
+     }
+     .emoji-btn11 img{
+        width:40px;
+        height: 40px;
+        position: relative;
+        top:5px;
+       
+     }
+     .emoji-btn2 img{
+        width:55px;
+        height: 55px;
+        position: relative;
+        position: relative;
+     
+        
+        right:5px;
+     }.emoji-btn3 img{
+        width:40px;
+        height: 40px;
+        position: relative;
+        top:5px;
+       
+     }.emoji-btn4 img{
+        width:40px;
+        height: 40px;
+        position: relative;
+        top:5px;
+        
+     }.emoji-btn5 img{
+        width: 55px;
+        height: 55px;
+        position: relative;
+        right:5px;
+        
+     }
+     .emoji-btn6 img{
+        width: 55px;
+        height: 55px;
+        position: relative;
+        
+        right:5px;
+       
+     }
+     .emoji-btn7 img{
+        width:40px;
+        height: 40px;
+        position: relative;
+        top:5px;
+     }
+     .emoji-btn8 img{
+        width:40px;
+        height: 40px;
+        position: relative;
+        top:5px;
+     }
+     .emoji-btn9 img{
+        width:40px;
+        height: 40px;
+        position: relative;
+        top:5px;
+     }
+     .emoji-btn10 img{
+        width:40px;
+        height: 40px;
+        position: relative;
+        top:5px;
+     }
+   
+        
+     
     .daily-view-entries{
         display: flex;
         flex-direction: row; 
@@ -211,6 +534,11 @@
         left:10px;
 
     }
+    .notes2:hover{
+        box-shadow: 3px 2px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
+    }
     .notes3{
         font-size: 2.1ch;
         max-width:250px;
@@ -221,13 +549,18 @@
         color:rgb(214, 145, 34);
         line-height:27px ;
         border-radius: 15px;
-        box-shadow:6px 5px rgb(214, 145, 34) ;
+        
         margin-left: 30px;
     }
     .notes3 p{
         position: relative;
         left:10px;
 
+    }
+    .notes3:hover{
+        box-shadow: 3px 2px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
     }
     .notes4{
         font-size: 2ch;
@@ -246,6 +579,16 @@
         position: relative;
         left:10px;
 
+    }
+    .notes4:hover{
+        box-shadow: 3px 2px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
+    }
+    .notes5:hover{
+        box-shadow: 3px 2px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
     }
     .notes5{
         font-size: 2ch;
@@ -285,5 +628,15 @@
     .daily-emoji h2{
         position: relative;
         bottom:60px;
+    }
+    .emo-entry-1:hover{
+        box-shadow: 6px 5px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
+    }
+    .notes:hover{
+        box-shadow: 6px 5px rgb(212, 139, 29);
+        transform: scale(1.2);
+        border-radius:20px ;
     }
     

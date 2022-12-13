@@ -1,0 +1,424 @@
+body{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    outline:none;
+    border:none;
+   
+    transition: 0.2s linear;
+    font-family: 'Aclonica', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background:url(../../assets/images/bg55.jpg) repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+html{
+    overflow-x:hidden;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow: 0rem .5rem 1rem rgba(0,0,0,.1);
+    z-index: 800;
+    padding:1rem 2rem;
+    background: linear-gradient(120deg ,#26506b,#9e66b6);
+    text-transform:capitalize;
+}
+
+header .navbar{
+    font-size:1.4rem;
+    color:#333;
+    margin-left:0.9rem;
+}
+header .navbar a{
+    text-decoration: none;
+    padding:0 1.9rem;
+    color:black;
+}
+header .navbar a:hover{
+  color:white;
+
+}
+ .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #F9F9F9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding:  1rem 2rem;
+    z-index: 1;
+    background: linear-gradient(120deg ,#26506b,#9e66b6);
+  }
+  .dropdown-content p a{
+    font-size:1.3rem;
+    color:black;
+  }
+  .dropdown span{
+   position:relative;
+   left:2rem;
+   color:black;
+ }
+ .dropdown span:hover{
+    color:white; 
+ }
+  .dropdown:hover .dropdown-content {
+    display:block;
+  }
+  .button-1{
+   vertical-align: top;
+}
+.login{
+    padding:0.6rem 2rem;
+    background-color: #333;
+    color:white;
+    border-radius:1rem;
+}
+
+h1{
+    color:#082032;
+    margin-top:50px;
+    margin-left:60px;
+    font-size: 45px;
+    }
+main{
+    position: relative;
+    top:10rem;
+}
+    .day label{
+        color: rgb(214, 125, 42);
+        font-size: 35px;
+        font-weight: bold;
+
+    }
+    .date label{
+        color: rgb(214, 125, 42);
+        font-size: 35px;
+        font-weight: bold;
+    }
+    input[type="date"]{
+        width:200px;
+        height:30px;
+        position: relative;
+        background-color:#082032;
+        left: 100px;
+        top:12px;
+        transform: translate(-50%,-50%);
+        background-image:url('../../assets/images/schedule.png') ;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 88%;
+        color:white;
+        padding: 5px;
+        font-size:18px;
+        font-weight:999;
+        border:none;
+        outline:none;
+    }
+    input:focus{
+       border:3px solid rgb(214, 125, 42);
+    }
+    select{
+        width:200px;
+        height:40px;
+        position: relative;
+        background-color:#082032;
+        left: 100px;
+        top:17px;
+        transform: translate(-50%,-50%);
+        color:white;
+        padding: 8px;
+        font-size:18px;
+        font-weight:999;
+        border:none;
+        outline:none;
+    }
+    select:focus{
+        border:3px solid rgb(214, 125, 42);
+    }
+    .day-time{
+        display: flex;
+        flex-direction: row;
+        margin-top:50px;
+        margin-left:20px;
+    }
+    .date{
+        margin-left:150px ;
+
+    }
+    .day{
+        margin-left:80px ;
+
+    }
+    .fill2 h2{
+        margin-top: 50px;
+        margin-left:60px;
+        font-size: 35px;
+        
+     }
+     .emoticons{
+        display:flex;
+        flex-direction: row;
+        margin-top: 150px;
+        margin-left:20px;
+ 
+ 
+     }
+     .emoji-1 input{
+     width:140px;
+     height:160px;
+     position: relative;
+     background-color:#082032;
+     left: 130px;
+     top:15px;
+     transform: translate(-50%,-50%);
+     transform: scale(2s);
+     background-image:url('../../assets/images/smile.png') ;
+     background-size: 120px;
+     background-repeat: no-repeat;
+     background-position: 50%;
+     color:white;
+     padding: 8px;
+     font-size:18px;
+     font-weight:999;
+     border-radius:30px;
+     border:none;
+     outline:none;
+     }
+     .emoji-1 input:focus{
+         border:3px solid rgb(214, 125, 42);
+         background-color: yellow;
+     }
+     
+     
+     
+     .emoji-2 input{
+         width:140px;
+         height:160px;
+         position: relative;
+         background-color:#082032;
+         left: 150px;
+         top:15px;
+        transform: translate(-50%,-50%);
+        transform: scale(2s);
+        background-image:url('../../assets/images/sad.png') ;
+        background-size: 90px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        color:white;
+        padding: 8px;
+        font-size:18px;
+        font-weight:999;
+        border-radius:30px;
+        border:none;
+        outline:none;
+     }
+     .emoji-2 input:focus{
+         border:3px solid;
+         background-color: grey;
+     }
+     
+     .emoji-3 input{
+        width:140px;
+        height:160px;
+        position: relative;
+        background-color:#082032;
+        left: 170px;
+        top:15px;
+        transform: translate(-50%,-50%);
+        transform: scale(2s);
+        background-image:url('../../assets/images/angryemoji.png') ;
+        background-size: 85px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        color:white;
+        padding: 8px;
+        font-size:18px;
+        font-weight:999;
+        border-radius:30px;
+        border:none;
+        outline:none;
+     }
+     .emoji-3 input:focus{
+         border:3px solid rgb(214, 125, 42);
+         background-color: rgb(164, 28, 28);
+     }
+     
+     .emoji-4 input{
+        width:140px;
+        height:160px;
+        position: relative;
+        background-color:#082032;
+        left: 190px;
+        top:15px;
+        transform: translate(-50%,-50%);
+        transform: scale(2s);
+        background-image:url('../../assets/images/fear.png') ;
+        background-size: 85px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        color:white;
+        padding:8px;
+        font-size:18px;
+        font-weight:999;
+        border-radius:30px;
+        border:none;
+        outline:none;
+     }
+     .emoji-4 input:focus{
+        border:3px solid rgb(214, 125, 42);
+        background-color: purple;
+     }
+     .emoji-5 input{
+        width:140px;
+        height:160px;
+        position: relative;
+        background-color:#082032;
+        left: 210px;
+        top:15px;
+        transform: translate(-50%,-50%);
+        transform: scale(2s);
+        background-image:url('../../assets/images/disgusted.png') ;
+        background-size: 95px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        color:white;
+        padding: 8px;
+        font-size:18px;
+        font-weight:999;
+        border-radius:30px;
+        border:none;
+        outline:none;
+     }
+     .emoji-5 input:focus{
+       border:3px solid rgb(214, 125, 42);
+       background-color:rgb(28, 116, 28);
+     }
+     
+     
+     .fill3{
+       background-color: #082032;
+       width: 54%;
+       height: 950px;
+       margin-left: 70px;
+       border-radius: 20px;
+     }
+     .fill3 h2{
+         color:white;
+         position: relative;
+         top:30px;
+         left:30px;
+         font-size: 25px;
+ 
+     }
+ 
+     textarea{
+     width: 80%;
+     height: 690px;
+     background-color: rgb(214, 132, 55) ;
+     padding: 12px 20px;
+     box-sizing: border-box;
+     border: 2px solid #ccc;
+     border-radius:10px;
+     font-size: 16px;
+     resize: none;
+     position: relative;
+     top:40px;
+     left:90px;
+     right: 40px;
+}
+    
+    
+    .content-img{
+     display: flex;
+     flex-direction: row;
+    }
+    .img-right{
+     position:relative;
+     left:60px;
+     top:40px;
+     }
+    .content-img1{
+     display: flex;
+     flex-direction: row;
+    }
+    .img-right1{
+     position:relative;
+     left:40px;
+     top:80px;
+      
+    }
+    .img-right1 h2{
+     color:#082032;
+     font-size: 30px;
+     position:relative;
+     left:20px;
+    }
+    .Submit button{
+     padding:10px 30px 10px 30px;
+     background-color: #333;
+     color:white;
+     border-radius:10px;
+     position:relative;
+     left:500px;
+     top:39px;
+     font-size: 30px;
+     margin-bottom:30px;
+}
+.login:hover{
+    opacity:0.8;
+}
+.Submit:hover{
+    opacity:0.8;
+}
+.rangebar{
+    border:1px solid  black;
+    background-color:#333;
+    width:34rem;
+    height:7rem;
+    border-radius: .9rem;
+    box-shadow: .3rem .4rem 0.5rem;
+}
+.rangebar-1{
+    padding: 1rem 0 0 1rem;
+    width:32rem;
+    margin-bottom:24px;
+}
+#slider{
+    -webkit-appearance: none;
+    width:100%;
+    height:7px;
+    outline:none;
+    margin-top:0;
+}
+.range-limit{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    color:white;
+    padding:.2rem 0 0 1rem;
+}
+.sleep {
+    color:white;
+
+}
+.rangebars-grid{
+    margin-top:2rem;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    row-gap:2rem;
+    column-gap:1rem;
+    padding:0 0 0 6rem;
+}

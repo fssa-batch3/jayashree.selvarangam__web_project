@@ -1,23 +1,21 @@
 *{
     text-decoration:none;
     }
+
     body{
-       
         font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
         background-image: url('../../assets/images/bg55.jpg');
         background-position: 60% 50%;
 }
-       
-    
     .header{
         margin-left:20px;
         margin-top:10px;
         margin-right:20px;
-          display:flex;
-          flex-direction:row;
-          border-bottom: 1px solid #333;
+        display:flex;
+        flex-direction:row;
+        border-bottom: 1px solid #333;
          
-    }
+}
     .image-logo{
         margin-top:20px;
         margin-right: 10px;
@@ -25,14 +23,15 @@
     .nav-list{
         display:flex;
         flex-direction:row;
-        margin-left:300px;
+        margin-left:200px;
         padding-top:20px;
     }
     .nav-item{
         margin-left:80px;
         font-size:24px;
         text-transform: capitalize;
-    }    li {
+    }    
+    li {
         list-style:none;
     }
     .nav{
@@ -45,8 +44,8 @@
     .dropdown {
         position: relative;
         display: inline-block;
-      }
-      .dropdown-content {
+    }
+    .dropdown-content {
         display:none;
         position: absolute;
         background-color: #F9F9F9;
@@ -54,10 +53,10 @@
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         padding: 12px 16px;
         z-index: 1;
-      }
-      .dropdown:hover .dropdown-content {
+    }
+    .dropdown:hover .dropdown-content {
         display: block;
-      }
+    }
     .button-1{
         margin-left: 90px;
         margin-top:27px;
@@ -68,8 +67,17 @@
         color:white;
         border-radius:10px;
     }
-    .rightside{
+    main{
+        border-top: 1px solid white;
+    }
+   
+    .rightside-content{
         display:flex;
+        border-bottom:1px solid white;
+    }
+    .right-content{
+        display:flex;
+        flex-direction:row;
     }
     .content-1{
         margin-left:20px;
@@ -81,8 +89,8 @@
         color:rgb(140, 70, 140);
     }
     .main-tag-1 .tagline-1 {
-            color:rgb(36, 159, 126);
-            font-size:23px;
+        color:rgb(36, 159, 126);
+        font-size:23px;
     }
     .button-2{
          margin-top: 90px;
@@ -100,10 +108,7 @@
         position: relative;
         top:10px;
         font-size: 20px;}
-        .rightside{
-               border-bottom:1px solid white;
-        }
-    
+
     .content-1 button{
         margin-top: 10px;
         padding:15px 35px 15px 35px;
@@ -111,24 +116,25 @@
         color:white;
         border-radius:10px;
         position:relative;
-        bottom:30px;}
-        .content-3 h2{
-            margin-left:    600px;
-            margin-top: 70px;
-            font-size: 35px;
+        bottom:30px;
+    }
+    .content-3 h2{
+        margin-left:600px;
+        margin-top: 70px;
+        font-size: 35px;
            
         }
-        .content-3{
-            color:rgba(33, 33, 133, 0.945)
-        }
-        .mood{
-            font-size: 18px;
-        }
-        .past-entries{
-            font-size: 18px;
-        }
+    .content-3{
+        color:rgba(33, 33, 133, 0.945)
+    }
+    .mood{
+        font-size: 18px;
+    }
+    .past-entries{
+        font-size: 18px;
+    }
     
-    .main-slogan{
+    .main-slogan-image1{
         margin-right: 30px;
     }
     .main-3{
@@ -144,7 +150,7 @@
         position: relative;
         right:150px;
     }
-    .main-slogan3{
+    .main-slogan-image3{
         position: relative;
        left:40px;
     }
@@ -164,7 +170,7 @@
         position: relative;
         left:150px;
     }
-    .main-slogan4{
+    .main-slogan-image4{
         position: relative;
         left:50px;
     }
@@ -181,7 +187,7 @@
         position: relative;
         right:150px;
     }
-    .main-slogan5{
+    .main-slogan-image5{
         position: relative;
         right:70px;
     }
@@ -198,29 +204,12 @@
         position: relative;
         left:150px;
     }
-    .main-slogan6{
+    .main-slogan-image6{
         position: relative;
         left:50px;
     }
-    main{
-        border-top: 1px solid white;
-    }
-    .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-      .dropdown-content {
-        display:none;
-        position: absolute;
-        background-color: #F9F9F9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        padding: 12px 16px;
-        z-index: 1;
-      }
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
+   
+    
     footer{
        
         margin-top: 40px;
@@ -232,21 +221,16 @@
         justify-content: center;
         margin-top: 30px;
     }
-    .email{
+    .contact-us{
         margin-left: 600px;
     }
     .label{
         font-size: 20px;
         color:black;
+        margin-left: 50px;
 
     }
-    main{
-        border-bottom:1px solid white;
-    }
-    .input{
-        padding: 10px 20px 10px 20px;
-    }
-    .socialyou{
+   .socialyou{
         margin-right: 30px;
     }
     .socialins{
