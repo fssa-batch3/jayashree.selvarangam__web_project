@@ -246,6 +246,12 @@ footer{
     border-top:1px solid white;
     position: relative;
     top:8rem;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    text-align: center;
+    background-color: black;
+    color:white;
  }
  .socialmedia{
      display: flex;
@@ -265,14 +271,7 @@ footer{
      margin-left:30px; 
  }
  
-footer{
-    display:flex;
-    align-items:center;
-    flex-direction:column;
-    text-align: center;
-    background-color: black;
-    color:white;
-}
+
 footer a{
     text-decoration: none;
     font-size:23px;
