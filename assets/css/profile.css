@@ -13,16 +13,15 @@ body{
     font-family: 'Aclonica', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Quicksand', sans-serif;
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   background: linear-gradient(120deg ,#26506b,#9e66b6);
    
 }
-body{
-  height:100vh;
-  width:100%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
- background: linear-gradient(120deg ,#26506b,#9e66b6);
-}
+
 form{
   width:35rem;
   height:50rem;
