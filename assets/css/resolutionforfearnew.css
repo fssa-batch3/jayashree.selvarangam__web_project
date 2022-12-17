@@ -17,7 +17,7 @@ html{
 }
 
 header{
-    position:fixed;
+    position:sticky;
     top:0;
     left:0;
     right:0;
@@ -48,12 +48,7 @@ header .navbar a:hover{
   .button-1{
    vertical-align: top;
 }
-.login{
-    padding:0.6rem 2rem;
-    background-color: #333;
-    color:white;
-    border-radius:1rem;
-}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -74,10 +69,7 @@ header .navbar a:hover{
   .dropdown-content span:hover{
    color:white;
   }
-main{
-    position: relative;
-    top:10rem;
-}
+
 h1{
     color:rgb(202, 140, 24);
     margin-top:50px;
@@ -88,6 +80,7 @@ h1{
     opacity: 0.8;
 }
 .login{
+
     padding:10px 30px 10px 30px;
     background-color: #333;
     color:white;
@@ -137,8 +130,8 @@ h1{
 footer{
     margin-top: 40px;
     border-top:1px solid white;
-    position: relative;
-    top:15rem;
+    position:relative;
+    top:5rem;
     display:flex;
     align-items:center;
     flex-direction:column;

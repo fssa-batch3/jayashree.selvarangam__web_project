@@ -20,7 +20,7 @@ html{
 }
 
 header{
-    position:fixed;
+    position:sticky;
     top:0;
     left:0;
     right:0;
@@ -93,10 +93,7 @@ h1{
     margin-left:60px;
     font-size: 45px;
     }
-main{
-    position: relative;
-    top:10rem;
-}
+
     .day label{
         color: rgb(214, 125, 42);
         font-size: 35px;
@@ -426,8 +423,7 @@ main{
 footer{
     margin-top: 40px;
     border-top:1px solid white;
-    position: relative;
-    top:15rem;
+  
     display:flex;
     align-items:center;
     flex-direction:column;

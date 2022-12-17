@@ -103,35 +103,6 @@ a{
   opacity:.7;
  text-decoration: none;
 }
-form:before{
-  content:'';
-  position:absolute;
-  bottom:2%;
-  right: 28%;
-  width: 200px;
-  height:200px;
-  background-color: magenta;
-  border-radius: 50%;
-  z-index:-1;
-  opacity:.4;
-}
-form:after{
-  content:'';
-  position:absolute;
-  top:2%;
-  left: 28%;
-  width: 200px;
-  height:200px;
-  background-color: magenta;
-  border-radius: 50%;
-  z-index:-1;
-  opacity: 0.4;
-}
-
-
-
-
-
 
 
 

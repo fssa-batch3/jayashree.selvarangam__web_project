@@ -89,8 +89,8 @@ header .navbar a:hover{
   opacity:0.8;
 }
 main{
-    position: relative;
-    top:9rem;
+  position:relative;
+  top:10rem;
     margin-left:4rem;
     margin-bottom:10rem;
     
@@ -151,8 +151,8 @@ main{
   footer{
     margin-top: 40px;
     border-top:1px solid white;
-    position: relative;
-    top:8rem;
+    position:relative;
+    top:4rem;
     display:flex;
     align-items:center;
     flex-direction:column;

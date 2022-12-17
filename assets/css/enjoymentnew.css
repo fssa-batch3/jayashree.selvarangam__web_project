@@ -18,7 +18,7 @@ html{
 }
 
 header{
-    position:fixed;
+    position:sticky;
     top:0;
     left:0;
     right:0;
@@ -76,10 +76,7 @@ header .navbar a:hover{
     color:white;
     border-radius:1rem;
 }
-main{
-    position: relative;
-    top:9rem;
-}
+
 
 main{
     margin:auto;
@@ -310,8 +307,8 @@ text-align:center ;
 footer{
     margin-top: 40px;
     border-top:1px solid white;
-    position: relative;
-    top:15rem;
+   position:relative;
+   top:5rem;
     display:flex;
     align-items:center;
     flex-direction:column;
@@ -343,7 +340,7 @@ footer a{
     font-size:23px;
     color:#9e66b6;
     display:inline-block;
-    margin-left: 30px;;
+    margin-left: 30px;
    
   }
   footer a:hover{

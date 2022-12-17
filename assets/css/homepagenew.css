@@ -18,7 +18,7 @@ html{
 }
 
 header{
-    position:fixed;
+    position:sticky;
     top:0;
     left:0;
     right:0;
@@ -83,10 +83,7 @@ header .navbar a:hover{
     color:white;
     border-radius:1rem;
 }
-main{
-    position: relative;
-    top:10rem;
-}
+
 
 
 .rightside-content{
@@ -119,9 +116,7 @@ main{
     font-size:30px;
     margin-top:40px;
 }
-.past-entries{
-    margin-left: 40px;
-}
+
 .content-1 p{
     position: relative;
     top:10px;
@@ -150,6 +145,7 @@ main{
 }
 .past-entries{
     font-size: 18px;
+    margin-left: 40px;
 }
 
 .main-slogan-image1{
@@ -226,9 +222,7 @@ main{
     position: relative;
     left:50px;
 }
-footer{
-   margin-top: 40px;
-}
+
 .socialmedia{
     display: flex;
     flex-direction: row;
@@ -255,6 +249,7 @@ footer{
     border-top:1px solid white;
     position: relative;
     top:10rem;
+    margin-top: 40px;
 }
 .mood:hover{
     opacity: 0.8;

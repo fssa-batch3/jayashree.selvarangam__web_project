@@ -19,7 +19,7 @@ html{
 }
 
 header{
-    position:fixed;
+    position:sticky;
     top:0;
     left:0;
     right:0;
@@ -79,16 +79,11 @@ header .navbar a:hover{
     color:white;
     border-radius:10px;
 }
-main{
-    position: relative;
-    top:9rem;
-}
 
 main{
     margin:auto;
     width:75vw;
-
- }
+}
 .content-1{
     margin-top:40px;
     margin-bottom: 40px;
@@ -134,9 +129,7 @@ main{
             text-align: left;
             line-height: 1.95rem;
         }
-       .heading-2{
-        font-size: 35px;
-       }
+       
       .fearoften-p{
         width:60rem;
         margin-left: 3rem;
@@ -175,7 +168,7 @@ main{
     text-align: left;
     margin-top:80px;
     margin-left:30px;
-    margin-right: 30px;;
+    margin-right: 30px;
 
  }
  .text1 h4{
@@ -205,6 +198,7 @@ main{
     }
     .heading-2{
         margin-left:30px;
+        font-size: 35px;
     }
     .types-p{
         margin-left:60px;
@@ -308,8 +302,7 @@ main{
     footer{
         margin-top: 40px;
         border-top:1px solid white;
-        position: relative;
-        top:8rem;
+       
         display:flex;
         align-items:center;
         flex-direction:column;
