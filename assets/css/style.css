@@ -161,8 +161,7 @@ section{
 
 .about .row .video-container h3{
     position: absolute;
-    top:50%;
-    transform: translateY(-50%);
+    top:40%;
     font-size: 32px;
     background:#fff;
     width:95%;
