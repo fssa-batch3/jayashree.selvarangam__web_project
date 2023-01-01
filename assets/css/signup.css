@@ -79,6 +79,27 @@ a{
   opacity:.7;
   text-decoration: none;
 }
+@media (max-width:700px){
+    
+  html{
+      font-size: 55%;
+  }
+  section{
+    padding:1rem;
+}
+form label{
+  font-size: 2rem;
+  
+}
+h1{
+  font-size: 3rem;
+}
+form{
+  width: 40rem;
+  height: 55rem;
+}
+
+}
 
 
 

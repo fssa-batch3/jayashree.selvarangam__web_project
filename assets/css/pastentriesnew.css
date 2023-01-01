@@ -297,3 +297,74 @@ top:35px;
   .calendar-container{
       margin-bottom:10px;
   }
+  header #toggler{
+    display: none;
+ }
+ 
+ header .fa-bars{
+     font-size: 1.6rem;
+     color:#333;
+     border-radius: .10rem;
+     padding:.5rem .5rem;
+     cursor: pointer;
+     border:.1rem solid rgba(0,0,0,.3);
+     display: none;
+ }
+ @media (max-width:700px){
+    
+    html{
+        font-size: 95%;
+    }
+    header{
+        padding:1rem;
+    }
+    header .fa-bars{
+        display: inline-block;
+    }
+    header .navbar{
+        position:absolute;
+        top:100%; left:0; right:0;
+        background:#eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path:polygon(0 0, 0 0, 0 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header .navbar a{
+        margin:1.5rem;
+        padding:1.5rem;
+        display:block;
+    }
+   
+
+    section{
+        padding:1rem;
+    }
+    .picture-1{
+      display:none;
+    }
+    .head{
+
+    }
+    .calendar{
+      
+      padding: 2rem 1%;
+      font-size: .55rem;
+    }
+    .box-value{
+      font-size: .45rem;
+    }
+    .head{
+      font-size: .45rem;
+     position: relative;
+     left: 10px;
+    }
+    .box-container{
+     width:53px;
+     height:85px;
+    
+    }
+  }

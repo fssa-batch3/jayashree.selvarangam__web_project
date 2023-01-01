@@ -260,3 +260,127 @@ footer a{
   footer a:hover{
     color:magenta;
   }
+  header #toggler{
+    display: none;
+ }
+ 
+ header .fa-bars{
+     font-size: 3rem;
+     color:#333;
+     border-radius: .10rem;
+     padding:.5rem 1.5rem;
+     cursor: pointer;
+     border:.1rem solid rgba(0,0,0,.3);
+     display: none;
+ }
+  @media (max-width:700px){
+    
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding:1rem;
+    }
+    header .fa-bars{
+        display: inline-block;
+    }
+    header .navbar{
+        position:absolute;
+        top:100%; left:0; right:0;
+        background:#eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header .navbar a{
+        margin:1.5rem;
+        padding:1.5rem;
+        background:#fff;
+        border:.1rem solid rgba(0,0,0,.1);
+        display:inline-block;
+    }
+
+    section{
+        padding:1rem;
+    }
+    .picture1 img{
+            
+        display: none;
+       
+    }
+    .disgust-p{
+        font-size: 2rem;
+        line-height: 2.7rem;
+        width:35rem;
+    }
+    .disgusting-p{
+        font-size: 2.3rem;
+        line-height: 2.7rem;
+        width:40rem;
+    }
+    .heading-1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .anger_can-p{
+        font-size: 2.3rem;
+        line-height: 2.7rem;
+        width:40rem;
+    }
+    .message1{
+        font-size: 2.3rem;
+        line-height: 2.7rem;
+        width:40rem;
+        height: 60rem;
+        margin-left: 30px;
+    }
+    .context1{
+        font-size: 4.3rem;
+        line-height: 3.7rem;
+        width:40rem;
+        bottom:10px;
+        position: relative;
+        right: 10px;
+    }
+   .key-p{
+        font-size: 2.3rem;
+        line-height: 2.7rem;
+       
+    }
+   
+       .picture2 img{
+            
+        display: none;
+       
+    }
+    .message2{
+        font-size: 2.3rem;
+        line-height: 2.7rem;
+        width:40rem;
+        height: 75rem;
+        margin-left: 30px;
+
+    }
+    .context2 {
+        font-size: 2.3rem;
+        line-height: 3.7rem;
+        width:35rem;
+        height:65rem ;
+      
+       
+    }
+    .text2 p{
+        font-size: 2.3rem;
+        line-height: 2.7rem;
+
+    }
+    .text2 h3{
+        font-size: 2.5rem;
+        line-height: 2.7rem;
+    }
+   
+}

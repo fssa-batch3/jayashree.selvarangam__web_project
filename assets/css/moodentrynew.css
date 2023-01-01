@@ -461,3 +461,114 @@ footer a{
   footer a:hover{
     color:magenta;
   }
+  header #toggler{
+    display: none;
+ }
+ 
+ header .fa-bars{
+     font-size: 3rem;
+     color:#333;
+     border-radius: .10rem;
+     padding:.5rem 1.5rem;
+     cursor: pointer;
+     border:.1rem solid rgba(0,0,0,.3);
+     display: none;
+ }
+  @media (max-width:700px){
+    
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding:1rem;
+    }
+    header .fa-bars{
+        display: inline-block;
+    }
+    header .navbar{
+        position:absolute;
+        top:100%; left:0; right:0;
+        background:#eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path:polygon(0 0, 0 0, 0 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header .navbar a{
+        margin:1.5rem;
+        padding:1.5rem;
+        display:block;
+    }
+    .fill div h1{
+        font-size: 5ch;
+        background-position: left;
+        margin-left: 20px;
+
+    }
+    .day-time{
+        flex-wrap:wrap;
+       row-gap: 1.5rem;
+    }
+    
+    .date {
+        margin-left: 80px;
+        font-size: 2rem;
+    }
+    .fill2 h2{
+        font-size: 5ch;
+        background-position: left;
+        margin-left: 20px;
+    }
+    
+   
+  .img-right{
+    display:none;
+  }
+
+.emoticons{
+   position: relative;
+    flex-wrap: wrap ;
+    right: 70px;
+}
+.img-right1{
+    display:none;
+}
+.content-img1{
+    margin-right: 5%;
+}
+.fill3{
+   
+    width:50rem;
+   height: 70rem;
+}
+.fill3 h2{
+    font-size:3ch;
+}
+.journal-entry {
+   position: relative;
+   right: 70px;
+}
+.journal-entry textarea{
+   width:40rem;
+   height: 55rem;
+  
+}
+.rangebars-grid{
+    display:grid;
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+    margin-left: 50px;
+   
+}
+.rangebar{
+    width:35rem;
+    font-size: 1.7rem;
+    height: 10rem;
+}
+    footer{
+        font-size:1.7rem;
+    }
+}
