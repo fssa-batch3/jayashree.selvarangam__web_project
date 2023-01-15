@@ -273,7 +273,7 @@ footer a{
      border:.1rem solid rgba(0,0,0,.3);
      display: none;
  }
-  @media (max-width:700px){
+  @media (max-width:412px){
     
     html{
         font-size: 55%;
@@ -307,6 +307,11 @@ footer a{
     section{
         padding:1rem;
     }
+    .main-slogan{
+        width: 95%;
+        height: 500px;
+        object-fit: cover;
+    }
     .picture1 img{
             
         display: none;
@@ -316,11 +321,15 @@ footer a{
         font-size: 2rem;
         line-height: 2.7rem;
         width:35rem;
+        position:relative;
+        right: 6.5rem;
     }
     .disgusting-p{
         font-size: 2.3rem;
         line-height: 2.7rem;
         width:40rem;
+        position:relative;
+        right: 6.5rem;
     }
     .heading-1{
         font-size: 3rem;
@@ -337,6 +346,8 @@ footer a{
         width:40rem;
         height: 60rem;
         margin-left: 30px;
+        position:relative;
+        right: 6.5rem;
     }
     .context1{
         font-size: 4.3rem;
@@ -363,6 +374,8 @@ footer a{
         width:40rem;
         height: 75rem;
         margin-left: 30px;
+        position:relative;
+        right: 6.5rem;
 
     }
     .context2 {

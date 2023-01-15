@@ -128,16 +128,16 @@ h1{
        border:3px solid rgb(214, 125, 42);
     }
     select{
-        width:200px;
+        width:85%;
         height:40px;
         position: relative;
         background-color:#082032;
-        left: 100px;
-        top:17px;
+        left: 170px;
+        bottom:20px;
         transform: translate(-50%,-50%);
         color:white;
         padding: 8px;
-        font-size:18px;
+        
         font-weight:999;
         border:none;
         outline:none;
@@ -148,8 +148,7 @@ h1{
     .day-time{
         display: flex;
         flex-direction: row;
-        margin-top:50px;
-        margin-left:20px;
+      
     }
     .date{
         margin-left:150px ;
@@ -174,7 +173,7 @@ h1{
  
      }
      .emoji-1 input{
-     width:140px;
+     width:8.75rem;
      height:160px;
      position: relative;
      background-color:#082032;
@@ -202,7 +201,7 @@ h1{
      
      
      .emoji-2 input{
-         width:140px;
+         width:8.75rem;
          height:160px;
          position: relative;
          background-color:#082032;
@@ -228,7 +227,7 @@ h1{
      }
      
      .emoji-3 input{
-        width:140px;
+        width:8.75rem;
         height:160px;
         position: relative;
         background-color:#082032;
@@ -254,7 +253,7 @@ h1{
      }
      
      .emoji-4 input{
-        width:140px;
+        width:8.75rem;
         height:160px;
         position: relative;
         background-color:#082032;
@@ -279,7 +278,7 @@ h1{
         background-color: purple;
      }
      .emoji-5 input{
-        width:140px;
+        width:8.75rem;
         height:160px;
         position: relative;
         background-color:#082032;
@@ -363,16 +362,15 @@ h1{
      position:relative;
      left:20px;
     }
-    .Submit button{
+    .submit{
      padding:10px 30px 10px 30px;
      background-color: #333;
      color:white;
      border-radius:10px;
-     position:relative;
-     left:550px;
-     top:39px;
+     
      font-size: 30px;
-     margin-bottom:30px;
+     margin-top:30px;
+     margin-left:90px;
 }
 .login:hover{
     opacity:0.8;
@@ -474,7 +472,7 @@ footer a{
      border:.1rem solid rgba(0,0,0,.3);
      display: none;
  }
-  @media (max-width:700px){
+  @media (max-width:412px){
     
     html{
         font-size: 55%;
@@ -529,9 +527,9 @@ footer a{
   }
 
 .emoticons{
-   position: relative;
+   
     flex-wrap: wrap ;
-    right: 70px;
+    
 }
 .img-right1{
     display:none;
@@ -545,30 +543,83 @@ footer a{
    height: 70rem;
 }
 .fill3 h2{
-    font-size:3ch;
+    font-size:2rem;
 }
+
 .journal-entry {
    position: relative;
-   right: 70px;
+   right: 20px;
 }
 .journal-entry textarea{
-   width:40rem;
-   height: 55rem;
+   width:32rem;
+   height: 50rem;
+   position: relative;
+   left: 40px;
   
 }
 .rangebars-grid{
     display:grid;
     grid-template-columns: 1fr;
     row-gap: 5rem;
-    margin-left: 50px;
+    margin-left: 30px;
+    margin-top: 2%;
    
 }
+.emoticons{
+    position: relative;
+    right:100px;
+    bottom: 50px;
+}
+.emoji-1 input{
+    width: 7rem;
+    height: 10rem;
+    border-radius: 5px;
+    background-size:55px;
+    
+}
+.emoji-2 input{
+    width: 7rem;
+    height: 10rem;
+    border-radius: 5px;
+    background-size:45px;
+    
+}
+.emoji-3 input{
+    width: 7rem;
+    height: 10rem;
+    border-radius: 5px;
+    background-size:45px;
+    
+}
+.emoji-4 input{
+    width: 7rem;
+    height: 10rem;
+    border-radius: 5px;
+    background-size:45px;
+   
+}
+.emoji-5 input{
+    width: 7rem;
+    height: 10rem;
+    border-radius: 5px;
+    background-size:45px;
+    
+}
+#slider{
+    padding-left: 7px;
+    width: 90%;
+}
 .rangebar{
-    width:35rem;
-    font-size: 1.7rem;
+    width:32rem;
+    font-size: 1.9rem;
     height: 10rem;
 }
     footer{
         font-size:1.7rem;
     }
+    .submit{
+      margin-right: 50px;
+      font-size: 2rem;
+    }
+
 }

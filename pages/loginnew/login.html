@@ -12,16 +12,29 @@
     <form>
         <h1>Login</h1>
         <label>Username</label>
-        <input type="text">
+        <input type="text"  id="username">
         <label>Password</label>
-        <input type="password">
-        <button><a href="../../index.html">Login</a></button>
+        <input type="password" id="password" >
+       
 
      
         <a href="../../pages/sign up/sign.html">If you are new to unwind sign up?</a>
- 
+        
+    <button type="button" onclick="sub()">Login</button>
     </form>
+    
 </div>
+<script>
+    function sub(){
+    const username= document.getElementById("username").value
+    const password= document.getElementById("password").value
+     console.log(username)
+     console.log(password)
+     window.location.href="../../index.html"
+ 
+    }
+  
+</script>
     
     
 </body>

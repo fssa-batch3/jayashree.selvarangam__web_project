@@ -129,7 +129,6 @@ h1{
 footer{
     margin-top: 40px;
     border-top:1px solid white;
-
     display:flex;
     align-items:center;
     flex-direction:column;
@@ -211,5 +210,9 @@ footer a{
     }
     .resolution{
         flex-wrap:wrap;
+    }
+    .picture img{
+        width:100%;
+
     }
 }

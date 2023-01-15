@@ -214,3 +214,39 @@ header .fa-bars{
       flex-wrap:wrap;
   }
 }
+@media (max-width:800px){
+    
+  html{
+      font-size: 55%;
+  }
+  header{
+      padding:1rem;
+  }
+  header .fa-bars{
+      display: inline-block;
+  }
+  header .navbar{
+      position:absolute;
+      top:100%; left:0; right:0;
+      background:#eee;
+      border-top: .1rem solid rgba(0,0,0,.1);
+      clip-path:polygon(0 0, 0 0, 0 0, 0 0);
+  }
+
+  header #toggler:checked ~ .navbar{
+      clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  header .navbar a{
+      margin:1.5rem;
+      padding:1.5rem;
+      display:block;
+  }
+  .resolution{
+      flex-wrap:wrap;
+  }
+  .picture img{
+      width:100%;
+
+  }
+}

@@ -381,11 +381,15 @@ footer a{
         font-size: 2rem;
         line-height: 2.7rem;
         width:35rem;
+        position: relative;
+        right:4rem;
     }
     .angriness-p{
         font-size: 2.3rem;
         line-height: 2.7rem;
         width:40rem;
+        position: relative;
+        right:5rem;
     }
     .heading-1{
         font-size: 3rem;
@@ -395,7 +399,9 @@ footer a{
         font-size: 2.3rem;
         line-height: 2.7rem;
         width:40rem;
+        display: none;
     }
+ 
     .picture1 img{
             
         display: none;
@@ -407,6 +413,8 @@ footer a{
         width:40rem;
         height: 70rem;
         margin-left: 30px;
+        position: relative;
+        right:6rem;
     }
     .context1{
         font-size: 4.3rem;
@@ -426,6 +434,8 @@ footer a{
         line-height: 2.7rem;
         width:40rem;
         height: 65rem;
+        position: relative;
+        right:8rem;
        }
        .picture2 img{
             
@@ -438,6 +448,8 @@ footer a{
         width:40rem;
         height: 65rem;
         margin-left: 30px;
+        position: relative;
+        right:6rem;
 
     }
     .context2 {
@@ -462,22 +474,28 @@ footer a{
         line-height: 2.7rem;
         width:40rem;
         height: 79rem;
-        margin-left: 30px;
-
+    
+        position: relative;
+        right:10rem;
+    }
+    .main-slogan{
+        width:95%;
+        height:500px;
+        object-fit: cover;
+        
     }
     .context3 {
         font-size: 2.3rem;
         line-height: 3.7rem;
         width:35rem;
         height:70rem ;
-     
-        
+                
        
     }
     .text3 p{
         font-size: 1.9rem;
         line-height: 2.7rem;
-
+        
     }
     .text3 h3{
         font-size: 2rem;
@@ -487,5 +505,8 @@ footer a{
             
         display: none;
        
+    }
+    .quotes{
+       display:none;
     }
 }

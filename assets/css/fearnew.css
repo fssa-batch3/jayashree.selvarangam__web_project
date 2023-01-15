@@ -391,11 +391,15 @@ main{
             font-size: 2rem;
             line-height: 2rem;
             width:35rem;
+            position:relative;
+            right: 4rem;
         }
         .FEAR-p{
             font-size: 2.3rem;
             line-height: 2.7rem;
             width:40rem;
+            position:relative;
+            right: 5rem;
         }
         .heading-2{
             font-size: 3rem;
@@ -418,6 +422,8 @@ main{
             width:40rem;
             height: 65rem;
             margin-left: 30px;
+            position:relative;
+            right: 6.5rem;
         }
         .context1{
             font-size: 4.3rem;
@@ -431,6 +437,9 @@ main{
             font-size: 2.3rem;
             line-height: 2.7rem;
            
+        }
+        .types-p{
+            display: none;
         }
        .types-p{
         font-size: 2.3rem;
@@ -453,11 +462,15 @@ main{
         line-height: 2.7rem;
         width:40rem;
         height: 65rem;
+        position:relative;
+        right: 6.5rem;
        }
        .picture2 img{
-            
-        display: none;
+            display: none;
        
+    }
+    .types-p p,li:nth-child(-n+2){
+        width:30rem;
     }
     .message2{
         font-size: 2.3rem;
@@ -465,7 +478,8 @@ main{
         width:40rem;
         height: 85rem;
         margin-left: 30px;
-
+        position:relative;
+        right: 6.5rem;
     }
     .context2 {
         font-size: 2.3rem;
@@ -480,7 +494,6 @@ main{
     .text2 p{
         font-size: 1.9rem;
         line-height: 2.7rem;
-
     }
     .text2 h3{
         font-size: 2rem;
@@ -492,7 +505,8 @@ main{
         width:40rem;
         height: 79rem;
         margin-left: 30px;
-
+        position:relative;
+        right: 6.5rem;
     }
     .context3 {
         font-size: 2.3rem;
@@ -518,4 +532,15 @@ main{
         display: none;
        
     }
+    .fearoften-p{
+        display: none;
     }
+    .main-slogan{
+        width:95%;
+
+
+    }
+    .quotes{
+        display:none;
+    }
+}

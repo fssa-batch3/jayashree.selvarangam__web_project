@@ -203,7 +203,7 @@ footer a{
      border:.1rem solid rgba(0,0,0,.3);
      display: none;
  }
- @media (max-width:800px){
+ @media (max-width:412px){
     
     html{
         font-size: 55%;
@@ -232,9 +232,9 @@ footer a{
         display:block;
     }
     .blog-grid{
-      margin-left: 60px;
+       margin-left:20px;
       margin-top: 4rem;
-      display: grid;
+      display: grid;  
       grid-template-columns:  1fr;
       row-gap: 5rem;
     }

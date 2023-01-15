@@ -10,6 +10,7 @@ body{
     transition: 0.2s linear;
     background-image: url('../../assets/images/bg55.jpg');
     background-position: 60% 50%;
+    
 }
 
 
@@ -201,13 +202,14 @@ section{
     bottom:30px;
 }
 .content-3 h2{
-    margin-left:600px;
-    margin-top: 70px;
+ margin-right: 60%;
     font-size: 35px;
-       
+      
     }
 .content-3{
-    color:rgba(33, 33, 133, 0.945)
+    color:rgba(33, 33, 133, 0.945);
+    
+    margin-left: 60%;
 }
 .mood{
     font-size: 18px;
@@ -218,80 +220,59 @@ section{
 }
 
 .main-slogan-image1{
+    
     margin-right: 30px;
 }
 .main-3{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-left:600px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+    column-gap: 50px;
+    margin-right:auto;
+    margin-left: auto;
     margin-top:70px;
+   
 }
-.main-tag-3{
-    font-size: 20px;
-    position: relative;
-    right:150px;
-}
-.main-slogan-image3{
-    position: relative;
-   left:40px;
-}
+
 .main-4{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-    margin-right:800px;
-    margin-left: 80px;
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+
+    column-gap: 70px;
+    margin-right:auto;
+    margin-left: auto;
     margin-top:70px;
-    position: relative;
-    right:50px;
+    
 }
-.main-tag-4{
-    font-size: 20px;
-    position: relative;
-    left:150px;
-}
+
 .main-slogan-image4{
-    position: relative;
-    left:50px;
+    
 }
 .main-5{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-left:800px;
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+
+    column-gap: 50px;
+    margin-right:auto;
+    margin-left: auto;
     margin-top:70px;
+    
 }
-.main-tag-5{
-    font-size: 2.2ch;
-    width:500px;
-    position: relative;
-    right:150px;
-}
+
 .main-slogan-image5{
-    position: relative;
-    right:70px;
+   
 }
 .main-6{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-    margin-right:800px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    column-gap: 50px;
+    margin-right:auto;
+    margin-left: auto;
     margin-top:70px;
+   
 }
-.main-tag-6{
-    font-size: 20px;
-    position: relative;
-    left:150px;
-}
-.main-slogan-image6{
-    position: relative;
-    left:50px;
-}
+
 
 .socialmedia{
     display: flex;
@@ -357,7 +338,7 @@ footer a{
      border:.1rem solid rgba(0,0,0,.3);
      display: none;
  }
-  @media (max-width:700px){
+  @media (max-width:412px){
     
     html{
         font-size: 55%;
@@ -370,10 +351,10 @@ footer a{
     }
     header .navbar{
         position:absolute;
-        top:100%; left:0; right:0;
+        top:0%; left:0; right:0;
         background:#eee;
         border-top: .1rem solid rgba(0,0,0,.1);
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        clip-path: polygon(0 0, 0 0, 0 0, 0 0);
     }
 
     header #toggler:checked ~ .navbar{
@@ -412,9 +393,9 @@ footer a{
     }
     
     .about .row .video-container{
-        width: 390px;
+        width: 290px;
         height:360px;
-        margin-left:18px;
+       margin-left: 5%;
     }
     
     .about .row .content p{
@@ -425,7 +406,7 @@ footer a{
         
         font-size: 19px;
     }
-.content-3 {
+/* .content-3 {
    display:flex;
    align-items: center;
    justify-content: center;
@@ -437,29 +418,27 @@ footer a{
    right:300px;
 }
 .main-tag-4 h3{
-    padding-left:550px;
-   width: 400px;
+   
+   font-size:2.3rem ;
 }
 .main-tag-5 h3{
-    padding-right:150px;
-   width:400px;
+    
    font-size:2.3rem ;
 }
 .main-tag-6 h3{
-    padding-left:550px;
-   width:400px;
+    font-size:2.3rem ; 
 }
 
 .main-tag-6{
-    font-size: 20px;
+    
     position: relative;
     left:0;
 }
 
 .main-tag-3 h3{
-    padding-right:150px;
-   width: 400px;
+    font-size:2.3rem ; 
 }
+
 .main-slogan-image3,.main-slogan-image4,.main-slogan-image5,.main-slogan-image6{
     display: none;
 }
@@ -474,8 +453,17 @@ footer a{
 }
 .main-tag-6 p{
     display:none;
+} */
+.button-2{
+    display:flex;
+    flex-direction: row;
+    
 }
+
 footer{
-    font-size:1.8rem;
+    font-size:1.2rem;
+    
+    
+
 }
 }

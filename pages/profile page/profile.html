@@ -20,23 +20,86 @@
         <h1>My Profile</h1>
         <i class="fa-solid fa-circle-user" style="font-size: 100px;" ></i>
         <label>Name</label>
-        <input type="text" placeholder="Scarlet">
+        <input type="text"  id="User_name">
         <label>Age</label>
-        <input type="number" placeholder="20">
+        <input type="number"  id="User_age">
         <label>Email-id</label>
-        <input type="email" placeholder="scarlet@gmail.com">
+        <input type="email" id="User_email">
         <label>Password</label>
-        <input type="password" placeholder=".......">
+        <input type="password"  id="User_password">
         <div class="buttons">
+
         <div class="edit"> <button>Edit</button></div>
        
-       <div class="save"><button>Save</button></div>
+       <div class="save"></div>
 
-    </div>
+        </div>
      
         <a href="../../index.html">Click here to go homepage</a>
  
     </form>
+    <button onclick="submit()" type="button">Save</button>
 </div>
+<script>
+  const name= localStorage.getItem("User_name");
+  const password= localStorage.getItem("User_password");
+  const age= localStorage.getItem("User_age");
+  const email= localStorage.getItem("User_email");
+  console.log(name);
+  console.log(email);
+  console.log(password);
+  console.log(age);
+
+
+  document.getElementById("User_name").value= name
+  document.getElementById("User_email").value= email
+  document.getElementById("User_password").value= password
+  document.getElementById("User_age").value= age
+// function submit(){
+
+// const name= document.getElementById("name").value
+// const age= document.getElementById("age").value
+// const email= document.getElementById("email").value
+// const password= document.getElementById("password").value
+
+
+// console.log(name)      
+// console.log(age)        
+// console.log(email)        
+// console.log(password)
+       
+// window.location.href="../../index.html"
+
+// localStorage.setItem("email",email)
+// localStorage.setItem("password",password)
+// localStorage.setItem("age",age)
+// localstorage.setItem("name",name)
+
+
+    
+</script>
 </body>
+
+    
 </html>
+    <!-- function submit(){
+
+    const name= document.getElementById("name").value
+    const age= document.getElementById("age").value
+    const email= document.getElementById("email").value
+    const password= document.getElementById("password").value
+    
+   
+    console.log(name)      
+    console.log(age)        
+    console.log(email)        
+    console.log(password)
+           
+    window.location.href="../../index.html"
+
+    localStorage.setItem("email",email)
+    localStorage.setItem("password",password)
+    localStorage.setItem("age",age)
+    localstorage.setItem("name",name)
+    }
+    -->

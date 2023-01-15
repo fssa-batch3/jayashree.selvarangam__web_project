@@ -393,15 +393,26 @@ footer a{
     section{
         padding:1rem;
     }
+    .mainslogan{
+       
+            width:95%;
+        height:400px;
+        object-fit: cover;
+        }
+    }
     .happy-p{
         font-size: 2rem;
         line-height: 2.9rem;
         width:35rem;
+        position: relative;
+        right:5rem;
     }
     .happiness-p{
         font-size: 2.3rem;
         line-height: 2.7rem;
         width:40rem;
+        position: relative;
+        right:6rem;
     }
     .heading-1{
         font-size: 3rem;
@@ -411,6 +422,8 @@ footer a{
         font-size: 2.3rem;
         line-height: 2.7rem;
         width:40rem;
+        position: relative;
+        right:8rem;
     }
     .picture1 img{
             
@@ -423,6 +436,8 @@ footer a{
         width:40rem;
         height: 65rem;
         margin-left: 30px;
+        position: relative;
+        right:6.5rem;
     }
     .context1{
         font-size: 4.3rem;
@@ -444,7 +459,9 @@ footer a{
         height: 65rem;
         margin-right: 60px;
               
-        display: none;
+      
+        position: relative;
+         right:8rem;
        
     }
     .message2{
@@ -453,7 +470,8 @@ footer a{
         width:40rem;
         height: 75rem;
         margin-left: 30px;
-
+        position: relative;
+        right:6.5rem;
     }
     .context2 {
         font-size: 3.3rem;
@@ -480,7 +498,8 @@ footer a{
         width:40rem;
         height: 80rem;
         margin-left: 30px;
-
+        position: relative;
+        right:6.5rem;
     }
     .context3 {
         font-size: 2.3rem;
@@ -511,4 +530,12 @@ footer a{
         display: none;
        
     }
-}
+    .quotes{
+        display: none; 
+    }
+    .types-p{
+        display:none;
+    }
+    h2{
+        display: none;
+    }
